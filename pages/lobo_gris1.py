@@ -11,8 +11,31 @@ import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
 
+
+# Configuración inicial de la página (debe ser la primera llamada)
+st.set_page_config(page_title="Simulación del Algoritmo del Lobo Gris", layout="wide")
+
+# Estilo de fondo
+page_bg_img = """
+<style>
+[data-testid="stAppViewContainer"]{
+background:
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#282828;
+background-size:16px 16px;
+</style>
+"""
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
+
+
+
+
 # Configuración inicial de la página
-st.set_page_config(page_title="Simulación del Algoritmo del Lobo Gris", layout="centered")
+#st.set_page_config(page_title="Simulación del Algoritmo del Lobo Gris", layout="centered")
 
 # Función para calcular la distancia al líder
 def calcular_distancias(df):

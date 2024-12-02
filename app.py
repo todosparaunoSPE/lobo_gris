@@ -7,6 +7,8 @@ Created on Mon Dec  2 14:02:21 2024
 
 import streamlit as st
 
+# Configuración inicial de la página (debe ser la primera llamada)
+st.set_page_config(page_title="Simulación del Algoritmo del Lobo Gris", layout="wide")
 
 # Estilo de fondo
 page_bg_img = """
@@ -24,9 +26,7 @@ background-size:16px 16px;
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
-
 # Título de la página
-st.set_page_config(page_title="Simulación del Algoritmo del Lobo Gris", layout="wide")
 st.title("Simulación del Algoritmo del Lobo Gris")
 
 # Descripción de la página
@@ -54,5 +54,4 @@ El Algoritmo del Lobo Gris es un algoritmo de optimización basado en la **simul
 **Javier Horacio Pérez Ricárdez**
 
 ¡Disfruta explorando el Algoritmo del Lobo Gris y descubre cómo se comportan los lobos a lo largo de las iteraciones!
-
 """)

@@ -7,13 +7,31 @@ Created on Mon Dec  2 14:02:21 2024
 
 import streamlit as st
 
+
+# Estilo de fondo
+page_bg_img = """
+<style>
+[data-testid="stAppViewContainer"]{
+background:
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#282828;
+background-size:16px 16px;
+</style>
+"""
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
+
+
 # Título de la página
 st.set_page_config(page_title="Simulación del Algoritmo del Lobo Gris", layout="wide")
 st.title("Simulación del Algoritmo del Lobo Gris")
 
 # Descripción de la página
-st.markdown("""
-**Bienvenido a la Simulación del Algoritmo del Lobo Gris!**
+#st.markdown("""
+#**Bienvenido a la Simulación del Algoritmo del Lobo Gris!**
 
 En esta aplicación, mostramos cómo el **Algoritmo del Lobo Gris** es capaz de simular el comportamiento de un grupo de lobos con jerarquías variables y distancias relativas al líder, además de actualizar sus posiciones en función de ciertos criterios de rendimiento.
 

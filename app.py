@@ -30,8 +30,8 @@ st.set_page_config(page_title="Simulación del Algoritmo del Lobo Gris", layout=
 st.title("Simulación del Algoritmo del Lobo Gris")
 
 # Descripción de la página
-#st.markdown("""
-#**Bienvenido a la Simulación del Algoritmo del Lobo Gris!**
+st.markdown("""
+**Bienvenido a la Simulación del Algoritmo del Lobo Gris!**
 
 En esta aplicación, mostramos cómo el **Algoritmo del Lobo Gris** es capaz de simular el comportamiento de un grupo de lobos con jerarquías variables y distancias relativas al líder, además de actualizar sus posiciones en función de ciertos criterios de rendimiento.
 

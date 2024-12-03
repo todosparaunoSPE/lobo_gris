@@ -57,3 +57,12 @@ El Algoritmo del Lobo Gris es un algoritmo de optimización basado en la **simul
 
 ¡Disfruta explorando el Algoritmo del Lobo Gris y descubre cómo se comportan los lobos a lo largo de las iteraciones!
 """)
+
+
+# Mostrar tu nombre en la barra lateral
+st.sidebar.write("**Nombre:** Javier Horacio Pérez Ricárdez")
+
+# Mostrar la fecha actual en la barra lateral
+fecha_actual = datetime.now().strftime("%d/%m/%Y")
+st.sidebar.write(f"**Fecha:** {fecha_actual}")
+

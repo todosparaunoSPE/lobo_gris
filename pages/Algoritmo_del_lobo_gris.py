@@ -164,3 +164,13 @@ for i, iteration_df in enumerate(iteration_dataframes, start=1):
     fig.update_traces(textposition="top center")
     fig.update_layout(title=f"Iteración {i} - Riesgo vs Rendimiento", showlegend=False)
     st.plotly_chart(fig)
+
+
+# Mostrar tu nombre en la barra lateral
+st.sidebar.write("**Nombre:** Javier Horacio Pérez Ricárdez")
+
+# Mostrar la fecha actual en la barra lateral
+fecha_actual = datetime.now().strftime("%d/%m/%Y")
+st.sidebar.write(f"**Fecha:** {fecha_actual}")
+
+

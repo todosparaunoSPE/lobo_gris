@@ -55,7 +55,7 @@ El Algoritmo del Lobo Gris es un algoritmo de optimización basado en la **simul
 ### Creado por:
 **Javier Horacio Pérez Ricárdez**
 
-#¡Disfruta explorando el Algoritmo del Lobo Gris y descubre cómo se comportan los lobos a lo largo de las iteraciones!
+
 """)
 
 

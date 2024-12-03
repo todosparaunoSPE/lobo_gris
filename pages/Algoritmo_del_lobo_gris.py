@@ -173,4 +173,11 @@ st.sidebar.write("**Nombre:** Javier Horacio Pérez Ricárdez")
 fecha_actual = datetime.now().strftime("%d/%m/%Y")
 st.sidebar.write(f"**Fecha:** {fecha_actual}")
 
-
+# Botón de descarga de archivo PDF en la barra lateral
+with open("modelo.pdf", "rb") as f:
+    st.sidebar.download_button(
+        label="Bajar modelo en PDF",
+        data=f,
+        file_name="modelo.pdf",
+        mime="application/pdf"
+    )

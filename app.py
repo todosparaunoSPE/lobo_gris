@@ -52,9 +52,6 @@ El Algoritmo del Lobo Gris es un algoritmo de optimización basado en la **simul
 1. **Interactuar con la Simulación**: Puedes visualizar cómo cambian las jerarquías y las distancias de los lobos a medida que avanzan las iteraciones.
 2. **Gráficos Interactivos**: Los gráficos muestran las jerarquías de los lobos y las distancias al líder a lo largo de las iteraciones.
 
-### Creado por:
-**Javier Horacio Pérez Ricárdez**
-
 
 """)
 

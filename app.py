@@ -7,6 +7,8 @@ Created on Mon Dec  2 14:02:21 2024
 
 import streamlit as st
 
+from datetime import datetime
+
 # Configuración inicial de la página (debe ser la primera llamada)
 st.set_page_config(page_title="Simulación del Algoritmo del Lobo Gris", layout="wide")
 
